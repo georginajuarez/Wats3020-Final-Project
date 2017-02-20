@@ -8,14 +8,14 @@ The idea is to make the site responsive using bootstrap. I want to use the boots
 BTLC is a small family company so the page needs to be simple and user friendly.
 
 ####Design Plan:
-Nothing too complex, but a few things I would like to add are:
+Features:
 * Image crousel for landing page
 * Map for directions page
 * Maybe a contact form 
 (but I don't know the setup so I may not include the form and opt for text and an email and add actual form later)
 
-I'm thinking I would like to use:
+List of third party libraries I plan to use:
 * jQuery
 * Bootstrap
 * Mapping library
-* Maybe Flickr for images 
+* Flickr (potentially for images) 
