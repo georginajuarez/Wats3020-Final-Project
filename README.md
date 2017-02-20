@@ -1,6 +1,5 @@
 # Wats3020-Final-Project
 
-##Big Twin Lake Campground 
 
 ####Concept:
 I'm going to create a product page for a local company (Big Twin Lake Campground). 
