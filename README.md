@@ -2,12 +2,15 @@
 
 
 ####Concept:
-I'm going to create a product page for a local company (Big Twin Lake Campground). 
-This page will serve as a mockup for a site that could potentially be launch a as a real site.
-The idea is to make the site responsive using bootstrap. I want to use the bootstrap tabs function to separate content.
-BTLC is a small family company so the page needs to be simple and user friendly.
+I'm going to create a product page for a local company (Big Twin Lake Campground). This page will serve as a mockup for a site that could be launch a as a real site.
+I would like the site to be responsive and make use of the bootstrap tabs function to separate content.
+BTLC is a small family company so the page needs to be simple and user friendly. The content needs to be displayed in a manner that is easy to read and access.
 
 ####Design Plan:
+Basics pages will include an about us (landing page), directions, attractions, and contact us.
+These pages will cover the basics of the company, like who they are, where to find them, how to get in contact, and things in the area that will bring appeal to the product/company.
+
+
 Features:
 * Image crousel for landing page
 * Map for directions page
