@@ -1,0 +1,25 @@
+
+header {
+  text-align: center;
+}
+
+#carousel-btlc {
+  width: 50%;
+  margin: auto;
+  border-style: inset;
+  border-width: thick;
+}
+
+footer {
+  text-align: center;
+}
+ul.social-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.social-links li {
+  display: inline;
+  padding: 2em; //adds space between icons
+}

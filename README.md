@@ -12,13 +12,13 @@ These pages will cover the basics of the company, like who they are, where to fi
 
 
 Features:
-* Image crousel for landing page
+* Image carousel for landing page
 * Map for directions page
-* Maybe a contact form 
+* Maybe a contact form
 (but I don't know the setup so I may not include the form and opt for text and an email and add actual form later)
 
 List of third party libraries I plan to use:
 * jQuery
 * Bootstrap
 * Mapping library
-* Flickr (potentially for images) 
+* Flickr (potentially for images)
