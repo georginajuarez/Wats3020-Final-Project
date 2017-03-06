@@ -1,10 +1,6 @@
 
 body {
-<<<<<<< HEAD
-    background-image: url("background-images/pexels-pix5.jpg");
-=======
     background-image: url("background-images/pexels-pix3.jpg");
->>>>>>> master
     background-size: cover;
 
 }
@@ -17,17 +13,10 @@ header {
    opacity: 0.90;
 }
 
-<<<<<<< HEAD
-.container-fluid {
-  font-size: 1.5em;
-  /*font-weight: bold;*/
-  /*background-color: rgba(255, 255, 255, .3); functions as an overlay under text to make it more legible*/
-=======
 .container {
   font-size: 1.5em;
   /*font-weight: bold;*/
   background-color: rgba(255, 255, 255, .5); /*functions as an overlay under text to make it more legible*/
->>>>>>> master
 }
 
 #carousel-btlc {

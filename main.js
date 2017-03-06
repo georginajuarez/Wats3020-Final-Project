@@ -1,6 +1,4 @@
 //add contact form with validation w/php
-<<<<<<< HEAD
-=======
 
 //BTLC Leaflet map
 $( document ).ready(function() {
@@ -18,4 +16,3 @@ L.marker([46.876217, -121.728493]).addTo(map)
     .openPopup();
 
 });//onReady closing tag
->>>>>>> master
