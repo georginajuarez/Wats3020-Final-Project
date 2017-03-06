@@ -1,6 +1,10 @@
 
 body {
+<<<<<<< HEAD
     background-image: url("background-images/pexels-pix5.jpg");
+=======
+    background-image: url("background-images/pexels-pix3.jpg");
+>>>>>>> master
     background-size: cover;
 
 }
@@ -13,17 +17,38 @@ header {
    opacity: 0.90;
 }
 
+<<<<<<< HEAD
 .container-fluid {
   font-size: 1.5em;
   /*font-weight: bold;*/
   /*background-color: rgba(255, 255, 255, .3); functions as an overlay under text to make it more legible*/
+=======
+.container {
+  font-size: 1.5em;
+  /*font-weight: bold;*/
+  background-color: rgba(255, 255, 255, .5); /*functions as an overlay under text to make it more legible*/
+>>>>>>> master
 }
 
 #carousel-btlc {
-  width: 50%;
+  width: 80%; /*resize images to banner size*/
   margin: auto;
   border-style: inset;
   border-width: thick;
+}
+
+#map {
+  height: 180px;
+}
+
+h3.campground-map {
+  text-align: center;
+}
+
+img.campground-map {
+  display: block;
+    margin: auto;
+    width: 50%;
 }
 
 footer {
@@ -37,5 +62,5 @@ ul.social-links {
 
 ul.social-links li {
   display: inline;
-  padding: 2em; //adds space between icons
+  padding: 2em; /*adds space between icons*/
 }
