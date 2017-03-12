@@ -2,27 +2,26 @@
 <html>
 
 <!-- Create multiple pages and link them together for each section. Make sure all have the same/corresponding hrefs-->
-<!-- Need to resize images -->
+<!-- Need to resize images  move script tags to bottom of page-->
 
   <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bookmark icon-->
+    <link rel="icon" href="BTLC-logo.png" type="image/png" sizes="16x16">
 
     <title>Big Twin Lake Campground</title>
 
     <link rel="stylesheet" type="text/css" href="main.css">
-    <script src="main.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
 
   </head>
@@ -75,29 +74,29 @@
 <div class="carousel-inner" role="listbox">
 
 <div class="item active">
-<img src="btlc-photos/BigTwin-01.jpg" alt="...">
+<img src="btlc-photos/BTLC-1.jpg" alt="Big Twin Lake Campground image">
 </div>
 
 <div class="item">
-<img src="btlc-photos/BigTwin-3.jpg" alt="...">
+<img src="btlc-photos/BTLC-2.jpg" alt="Big Twin Lake Campground image">
 </div>
 
 <div class="item">
-<img src="btlc-photos/BigTwin-6.jpg" alt="...">
+<img src="btlc-photos/BTLC-3.jpg" alt="Big Twin Lake Campground image">
 </div>
 
 <div class="item">
-<img src="btlc-photos/BigTwin-7.jpg" alt="...">
+<img src="btlc-photos/BTLC-4.jpg" alt="Big Twin Lake Campground image">
 </div>
 
 <div class="item">
-<img src="btlc-photos/BigTwin-9.jpg" alt="...">
+<img src="btlc-photos/BTLC-5.jpg" alt="Big Twin Lake Campground image">
 </div>
 
 <div class="item">
-<img src="btlc-photos/BigTwin-10.jpg" alt="...">
+<img src="btlc-photos/BTLC-6.jpg" alt="Big Twin Lake Campground image">
 </div>
-<!--Big Twin Lake Campground bottom carousel text-->
+<!--Big Twin Lake Campground bottom carousel text (not included)-->
 </div>
 
 <!-- Controls -->
@@ -112,6 +111,7 @@
 </div>
 <!--End carousel-btlc-->
 
+<img id="change-xs-sm" class="img-responsive" src="btlc-photos/BTLC-2.jpg" alt="Big Twin Lake Campground image">
 
     <div class="container"> <!--container-fluid goes 100% width | container centers and adds margin-->
 
@@ -147,19 +147,30 @@
           <ul class="social-links">
             <li class="tripadvisor"><a href="https://www.tripadvisor.com/Hotel_Review-g58833-d1632905-Reviews-Big_Twin_Lake_Campground-Winthrop_Washington.html"><i class="fa fa-tripadvisor" aria-hidden="true" style="font-size:36px"></i></a></li>
             <li class="facebook"><a href="https://www.facebook.com/Big-Twin-Lake-Campground-113188482094132/"><i class="fa fa-facebook-square" style="font-size:36px"></i></a></li>
-            <li class="yelp"><a href="https://www.yelp.com/biz/big-twin-lake-campground-winthrop"><i class="fa fa-yelp" aria-hidden="true" style="font-size:36px"></i></a></li>
+            <li class="instagram"><a href="https://www.instagram.com/bigtwinlake/"><i class="fa fa-instagram" aria-hidden="true" style="font-size:36px"></i></a></li>
           </ul>
         </div>
 
+        <!--Scroll to top button-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></button>
+
+        <p>210 Twin Lakes Rd &bull;
+          Winthrop, WA 98862<br>
+          <a href="tel:+1-509-996-2650">(509) 996-2650</a></p>
+
         <div class="created-by">
-          <p>210 Twin Lakes Rd &bull;
-            Winthrop, WA 98862<br>
-            (509) 996-2650</p>
             <!-- last paragraph needs to be xs text-->
           <p>This page was created and designed with <span class="heart">&hearts;</span> by <span class="name">MGJ <br> &copy;  2017</span></p>
         </div>
       </footer>
 
+      <!--Script Tags-->
+
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="main.js"></script>
 
   </body>
 

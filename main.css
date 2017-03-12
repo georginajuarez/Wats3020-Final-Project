@@ -1,8 +1,9 @@
+/* add scrolling feature */
+
 
 body {
     background-image: url("background-images/pexels-pix3.jpg");
     background-size: cover;
-
 }
 
 header {
@@ -15,19 +16,28 @@ header {
 
 .container {
   font-size: 1.5em;
+  color: ghostwhite;
+  padding-bottom: 10%;
   /*font-weight: bold;*/
-  background-color: rgba(255, 255, 255, .5); /*functions as an overlay under text to make it more legible*/
+  /*background-color: rgba(255, 255, 255, .5); functions as an overlay under text to make it more legible*/
+  /* target individual elements not the entire container */
 }
 
 #carousel-btlc {
-  width: 80%; /*resize images to banner size*/
+  width: 100%; /*resize images to banner size*/
   margin: auto;
-  border-style: inset;
-  border-width: thick;
+  /*border-style: inset;
+  border-width: thick;*/
 }
 
-#map {
-  height: 180px;
+#change-xs-sm {
+  display: none;
+}
+
+#map-container {
+  height: 300px;
+  width: auto;
+  margin: auto 10%;
 }
 
 h3.campground-map {
@@ -40,9 +50,33 @@ img.campground-map {
     width: 50%;
 }
 
+table.table {
+  background-color: grey;
+}
+
 footer {
   text-align: center;
+  color: ghostwhite;
+  padding-top: 10%;
 }
+
+footer a {
+  color: powderblue;
+}
+
+.fa-tripadvisor {
+    color: green;
+}
+
+.fa-facebook-square {
+    color: powderblue;
+}
+
+.fa-instagram {
+    color: #9900cc;
+}
+
+
 ul.social-links {
   list-style-type: none;
   margin: 0;
@@ -52,4 +86,87 @@ ul.social-links {
 ul.social-links li {
   display: inline;
   padding: 2em; /*adds space between icons*/
+}
+
+.created-by {
+      font-size: xx-small;
+}
+
+/*Scroll to top button css*/
+#myBtn {
+    display: none; /* Hidden by default until page starts to scroll 20px*/
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: powderblue; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+
+/* Phone screen (xs)*/
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .container {
+    color: black;
+  }
+
+  footer {
+  color: black;
+  }
+
+  #carousel-btlc {
+    display: none;
+  }
+
+  #change-xs-sm {
+    display: inline;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/* Tablet screen (sm)*/
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  #carousel-btlc {
+    display: none;
+  }
+
+  #change-xs-sm {
+    display: inline;
+    width: 100%;
+    margin: auto;
+  }
+}
+/* Television screen (lg) */
+@media screen and (min-width: 1200px) {
+  #carousel-btlc {
+    width: 70%;
+    margin: auto;
+    border-style: inset;
+    border-width: thick;
+  }
+
+  #change-xs-sm {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+        body {
+            background-image: none;
+            background-color: lightgreen;
+        }
 }
